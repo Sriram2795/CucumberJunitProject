@@ -26,6 +26,7 @@ public class BaseClass {
 	public static HomePage home;
 	public static CartPage cart;
 	public static String t="Test";
+	public static String x="Madara";
 
 	public void openBrowser(String browser) {
 		try {
