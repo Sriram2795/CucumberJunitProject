@@ -9,7 +9,7 @@ import io.cucumber.junit.Cucumber;
 		features="src/test/java/com/vcentry/lab/features",
 		glue="com.vcentry.lab.stepDefinition",
 		plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},monochrome=true,
-		dryRun=false, //dry run is to check feature file steps were implemented in Teststeps
+		dryRun=false , //dry run is to check feature file steps were implemented in Teststeps
 		tags="@validlogin or @sanity"
 		)
 public class TestRunner {
